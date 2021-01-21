@@ -9,6 +9,7 @@ The website will list the spells that the class can use in spell order when clic
 
 The Website will be organized something like this
 (the one with * * is selected)
+(view table example in raw or blame)
  _______________________________
 |*Wizard*|Warlock|Sorcerer|Bard |
 |Spell list in    | Image of the|
