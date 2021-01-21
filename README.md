@@ -23,7 +23,7 @@ The Website will be organized something like this
 
 
 
-In Dungeons and dragons there are 10 levels of spells, that go from level 0 to level 9
+In Dungeons and dragons there are 10 levels of spells, that go from level 0 to level 9.
 spells get stronger the higher the number, and are different from class to class. Some
 casters share certain spells, while some spells are unique to a class. When the user clicks
 "Wizard" The list of wizard spells will be listed in spell order, and then in alphebetical order.
