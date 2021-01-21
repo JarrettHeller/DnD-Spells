@@ -1,7 +1,10 @@
 # DnD-Spells
 DnD spell Project 
-http://www.dnd5eapi.co/
-https://pixabay.com/service/about/api/
+
+
+DnD API: http://www.dnd5eapi.co/
+
+Photo API: https://pixabay.com/service/about/api/
 
 We are listing 4 Class's spells.
 The classes are the Wizard, Warlock, Sorcerer, and Bard
