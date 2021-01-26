@@ -158,7 +158,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("https://placeimg.com/400/400/animals");
+  background-image: url("https://i.pinimg.com/originals/b2/81/7a/b2817a7be5df9c986a2694d60f716b63.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.3;
@@ -182,4 +182,8 @@
   }
 }
 
-
+.background {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/59c33b7103596e418135845c/1592422928655-1W4ZJEZAVFYN4ULGKUQ9/ke17ZwdGBToddI8pDm48kKD2M9CL0p5FJ1lxK5ov6XpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIzwuSgui8HcXIKug8Ei4ChbiYmLe_cBMeLmGlWrLEblYKMshLAGzx4R3EDFOm1kBS/FrostMaiden.jpg");
+  
+  
+}
