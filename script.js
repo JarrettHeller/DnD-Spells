@@ -1,4 +1,3 @@
-
 $(".character li").on("click", function(){
     var DnDclass = $(this).text()
 
@@ -21,3 +20,5 @@ $.ajax({
     
 })
 }
+
+
