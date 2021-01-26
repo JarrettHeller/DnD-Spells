@@ -1,17 +1,16 @@
 
 .topbar-responsive {
-  background: #8d120a;
+  background: #2c3840;
   padding: 1rem 1.5rem;
-  font-family: fantasy;
 }
 
 .topbar-responsive .topbar-responsive-logo {
-  color: #cacaca;
+  color: #fefefe;
   vertical-align: middle;
 }
 
 .topbar-responsive .menu {
-  background: #8d120a;
+  background: #2c3840;
 }
 
 .topbar-responsive .menu li:last-of-type {
