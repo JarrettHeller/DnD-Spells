@@ -1,4 +1,3 @@
-
 $(".character li").on("click", function(){
     var DnDclass = $(this).text()
 
@@ -21,7 +20,7 @@ $.ajax({
     dataType: "json"
 }).then(function(response){
 
-    console.log(response)
+    // console.log(response)
 
     var card = $("<div>").addClass("card")
 
@@ -33,23 +32,27 @@ $.ajax({
 
         var spellList = response.results[i].name
 
-        console.log(spellList)
+        // console.log(spellList)
 
-        var spellItems = $("<li>").text(spellList)
-
+        var spellItems = $("<li>").html(spellList)
+        // console.log(spellItems)
         list.append(spellItems)
 
 
     }
 
+    console.log(list)
     body.append(list)
 
-    card.append(card)
-    
+    // card.append(body)
+
+    $(".card-section").append(list)
 
 })
-
 }
+
+
+
 
 function displayImage(DnDclass){
 
@@ -65,9 +68,50 @@ function displayImage(DnDclass){
 
         console.log(response)
 
+        var imgClass = "";
+
+        // imgClass = response.hits[i].pageURL
+
+        if(DnDclass === "bard") {
+
+            imgClass = response.hits[0].largeImageURL
+
+            console.log(imgClass)
+
+            var img = $("<img>").attr("src", imgClass);
+
+            $(".classImg").append(img)
+
+        } else if (DnDclass === "wizard") {
+
+            imgClass = response.hits[10].largeImageURL
+
+            console.log(imgClass)
+
+            var img = $("<img>").attr("src", imgClass);
+
+            $(".classImg").append(img)
+
+        } else if (DnDclass === "sorcerer") {
+
+            imgClass = response.hits[3].largeImageURL
+
+            var img = $("<img>").attr("src", imgClass);
+
+            $(".classImg").append(img)
+
+        } else{
+            
+            imgClass = response.hits[14].largeImageURL
+            
+            var img = $("<img>").attr("src", imgClass);
+
+            $(".classImg").append(img)
+        }
+
 
 
     })
-
+//wizard I = [10]
 
 }
