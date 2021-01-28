@@ -8,6 +8,8 @@ $(".character li").on("click", function(){
 
     displaySpell(DnDclass)
 
+    displayImage(DnDclass)
+
 })
 
 function displaySpell(DnDclass){
@@ -46,4 +48,26 @@ $.ajax({
     
 
 })
+
+}
+
+function displayImage(DnDclass){
+
+    var queryURL = `https://pixabay.com/api/?key=20053744-d90ffc8b7653149ca73d2a0ac&q=${DnDclass}`
+
+    console.log(queryURL)
+
+    $.ajax({
+        type: "GET",
+        url: queryURL,
+        dataType: "jsonp"
+    }).then(function(response){
+
+        console.log(response)
+
+
+
+    })
+
+
 }
