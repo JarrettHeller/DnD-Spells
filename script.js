@@ -1,4 +1,3 @@
-
 $(".character li").on("click", function(){
     var DnDclass = $(this).text()
 
@@ -19,7 +18,7 @@ $.ajax({
     dataType: "json"
 }).then(function(response){
 
-    console.log(response)
+    // console.log(response)
 
     var card = $("<div>").addClass("card")
 
@@ -31,19 +30,37 @@ $.ajax({
 
         var spellList = response.results[i].name
 
-        console.log(spellList)
+        // console.log(spellList)
 
-        var spellItems = $("<li>").text(spellList)
-
+        var spellItems = $("<li>").html(spellList)
+        console.log(spellItems)
         list.append(spellItems)
 
 
     }
 
+    console.log(list)
     body.append(list)
 
-    card.append(card)
-    
+    // card.append(body)
+
+    $(".card-section").append(list)
 
 })
 }
+
+
+
+
+// Open Card Reveal Click
+$('.open-button').click(function(){
+    $(this).siblings('.card-reveal').toggleClass('open');
+  });
+  
+  // Close Card Reveal Click
+  $('.close-button').click(function(){
+    $(this).parent().parent('.card-reveal').toggleClass('open');
+  });
+  
+  
+

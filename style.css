@@ -159,7 +159,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("demon.2.jpg");
+  background-image: url("https://github.com/JarrettHeller/DnD-Spells/blob/main/assets/demon.2.jpg?raw=true");
   background-repeat: inherit;
   background-size: contain;
   opacity: 0.5;
@@ -189,8 +189,46 @@
  
   top: 0;
   left: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat:repeat;
+  background-size: 100%;
   opacity: 0.8;
   z-index: 0;
 }
+
+.card-section {
+  min-height: 400px;
+}
+
+
+.card-reveal-wrapper {
+  position: relative;
+}
+
+.card-reveal-wrapper .open-button,
+.card-reveal-wrapper .close-button {
+  cursor: pointer;
+  float: right;
+  font-size: 0.875rem;
+  padding-left: 0.5rem;
+  text-align: right;
+  width: 100%;
+}
+
+.card-reveal-wrapper .card-reveal {
+  background: #fefefe;
+  bottom: 0;
+  display: block;
+  left: 0;
+  overflow: hidden;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  transition: top 0.6s ease-in-out;
+}
+
+.card-reveal-wrapper .card-reveal.open {
+  top: 0;
+  z-index: 1;
+}
+
