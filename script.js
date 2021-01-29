@@ -3,6 +3,9 @@ $(".character li").on("click", function(){
 
     DnDclass = DnDclass.toLowerCase()
 
+    $(".card-section").empty()
+    $(".classImg").empty()
+
     console.log(DnDclass)
 
     displaySpell(DnDclass)
