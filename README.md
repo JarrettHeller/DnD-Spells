@@ -46,3 +46,9 @@ casters share certain spells, while some spells are unique to a class. When the 
 
 contributors
 Cameron Boese, Jarrett Heller, Lucas Plumb and Michael Swigart.
+
+
+
+https://jarrettheller.github.io/DnD-Spells/
+
+https://github.com/JarrettHeller/DnD-Spells
