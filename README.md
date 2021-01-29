@@ -41,3 +41,8 @@ casters share certain spells, while some spells are unique to a class. When the 
 ![DUNGEONS AND DRAGONS CLASSES AND SPELLS - Google Chrome 1_29_2021 12_05_23 AM (2)](https://user-images.githubusercontent.com/73671076/106238591-bbf8dd80-61c6-11eb-8070-3ebe16411cdc.png)
 
 ![DUNGEONS AND DRAGONS CLASSES AND SPELLS - Google Chrome 1_29_2021 12_05_42 AM (2)](https://user-images.githubusercontent.com/73671076/106238607-c1562800-61c6-11eb-84cb-ab0f60c9dbda.png)
+
+
+
+##contributors
+###Cameron Boese, Jarrett Heller, Lucas Plumb and Michael Swigart.
